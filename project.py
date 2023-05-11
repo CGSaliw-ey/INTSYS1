@@ -1,5 +1,7 @@
-import numpy as np
+import numpy as np 
+# pip install numpy 
 import matplotlib.pyplot as plt
+# pip install matplotlib
 
 # Load the data from the file
 data = np.genfromtxt('bike_sharing_data.txt', delimiter=',', skip_header=1)
